@@ -10,5 +10,5 @@ cd Graviton-App
 npm install
 npm run build:pacman
 cd dist
-sudo pacman -U  ./GravitonEditor_Installer_*
+sudo pacman -U --noconfirm ./GravitonEditor_Installer_*
 
